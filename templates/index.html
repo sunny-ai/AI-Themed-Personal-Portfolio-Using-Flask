@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abu Sayed Sunny</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <div class="address-bar"></div>
+        <div class="browser-bar"></div>
+        <div class="browser-content">
+            <h1 id="static-text">Abu Sayed Sunny</h1>
+            <h2 id="typing-text"></h2>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/abu-sayed-sunny/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/sunny-ai" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:20103229@iubat.edu"><i class="fas fa-envelope"></i></a>
+                <a href="skype:fs2511324?chat"><i class="fab fa-skype"></i></a>
+            </div>
+            <div class="profile-image">
+                <img src="{{ url_for('static', filename='sunnypng.png') }}" alt="Profile Image">
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

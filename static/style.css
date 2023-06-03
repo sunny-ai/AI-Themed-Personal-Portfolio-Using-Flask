@@ -1,0 +1,74 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #222;
+    width: 90%;
+    max-width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.address-bar {
+    height: 30px;
+    background-color: #555;
+}
+
+.browser-bar {
+    height: 30px;
+    background-color: #222;
+}
+
+.browser-content {
+    padding: 20px;
+    color: #0f0;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-y: auto;
+    height: calc(100% - 60px);
+}
+
+#typing-text::after {
+    content: "|";
+    animation: blink-caret 0.75s infinite;
+}
+
+.social-icons {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.social-icons a {
+    color: #0f0;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 2.5px;
+}
+
+.profile-image {
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+}
+
+.profile-image img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 0%;
+}
+
+@media (max-width: 800px) {
+    .card {
+        height: auto;
+    }
+}
