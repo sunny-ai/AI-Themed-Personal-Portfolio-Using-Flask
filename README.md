@@ -1,5 +1,5 @@
 # AI Themed Personal Portfolio Using Flask
-## this project is running on. You are welcome to add your idea.
+## This project is running on. You are welcome to add your idea.
 
 This project is a personal portfolio website built using Flask, a Python web framework. The portfolio showcases the work and skills of Abu Sayed Sunny, with an AI theme. The website includes a dynamic typing effect, social media links, and a profile image.
 
